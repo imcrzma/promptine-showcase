@@ -15,6 +15,8 @@ flowchart LR
     F --> H["Send to Telegram"]
 ```
 
+![Content Radar workflow](images/content-radar.png)
+
 ## What it produces
 
 Ten ranked ideas per run, each with a hook, script or carousel outline, visual direction, tools needed, difficulty, caption and CTA, an appeal score with rationale, and a list of claims to verify. Every text field is also delivered in natural Arabic.

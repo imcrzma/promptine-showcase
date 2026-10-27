@@ -25,6 +25,20 @@ flowchart TD
     O --> P["Save reply, upsert lead, update summary"]
 ```
 
+## Workflow canvas
+
+**1. Ingestion and tenant lookup**
+![Ingestion](images/customer-service-1-ingestion.png)
+
+**2. Customer, conversation and memory**
+![Memory](images/customer-service-2-memory.png)
+
+**3. AI agent, validation and fallback**
+![Agent](images/customer-service-3-agent.png)
+
+**4. Human handoff, reply and CRM**
+![Handoff and reply](images/customer-service-4-handoff-and-reply.png)
+
 ## Capabilities
 
 - **Persistent memory** per customer and conversation, with a rolling summary.
@@ -41,3 +55,5 @@ A separate workflow is attached as the error workflow of the main system. On any
 
 1. Logs the workflow, execution, failed node and message to an errors table.
 2. Sends the admin an alert with a short, actionable fix suggestion (rate limit, credential problem, or inspect the node).
+
+![Error monitoring](images/error-monitoring.png)

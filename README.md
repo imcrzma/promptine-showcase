@@ -17,6 +17,12 @@ This repository is a **showcase** of how our systems are designed. It documents 
 | **Error Monitoring** | Central error workflow that logs every failure and alerts the admin with a suggested fix | [docs/customer-service.md](docs/customer-service.md#error-monitoring) |
 | **AI Content Radar** | Daily research agent that finds AI news and produces 10 ranked, bilingual (EN/AR) content ideas | [docs/content-radar.md](docs/content-radar.md) |
 
+## Preview
+
+![AI Customer Service - agent flow](docs/images/customer-service-3-agent.png)
+
+*Workflow canvas renders. Prompts, credentials and client data are intentionally excluded.*
+
 ## Stack
 
 `n8n` · `LLMs via OpenRouter` · `Claude API` · `Supabase` · `WhatsApp Business API` · `Telegram Bot API` · `Google Sheets`
